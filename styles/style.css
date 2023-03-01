@@ -32,3 +32,11 @@ main { /*o main está ocupando a tela inteira*/
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+
+#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 471px;
+    width: 269px;
+}
