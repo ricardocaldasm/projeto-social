@@ -40,3 +40,22 @@ main { /*o main está ocupando a tela inteira*/
     height: 471px;
     width: 269px;
 }
+
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais img {
+    width: 50px; /*neste caso, ao diminuir a largura, também diminui  a altura*/
+    margin: 10px;
+    border-radius: 50%; /*transforma os ícones em redondos*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box; /*a borda faz parte do box*/
+}
+
+#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.15s;
+}
